@@ -1,0 +1,3 @@
+api_url = "https://_domain_"
+site_url = "https://_domain_"
+additional_redirect_urls = ["https://_domain_:3000", "https://_domain_"]
