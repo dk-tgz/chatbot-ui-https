@@ -1,0 +1,1 @@
+docker run --rm -d -p 443:443 -p 80:80 -p 54325:54325 --name proxy -v /home/centos/default.conf:/etc/nginx/conf.d/default.conf -v /home/centos/.acme.sh/_domain_/_domain_.cer:/etc/ssl/certs/cert.crt -v /home/centos/.acme.sh/_domain_/_domain_.key:/etc/ssl/certs/key.key nginx
